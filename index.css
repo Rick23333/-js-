@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background: #eee;
+}
+
+.wrapper {
+    width: 80%;
+    height: 100%;
+    min-width: 850px;
+    min-height: 650px;
+    background-color: #fff;
+    margin: 0 10%;
+    position: relative;
+}
+
+.box {
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 50px;
+    left: calc(50% - 400px);
+    /* box-sizing: border-box; */
+    border: 2px solid #000; 
+}
+
+.box li {
+    float: left;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+/* .box li:nth-child(odd) {
+    background: #000;
+}
+
+.box li:nth-child(even) {
+    background: #fff;
+} */
+
+.start {
+    width: 100px;
+    height: 30px;
+    margin: 10px calc(50% - 50px);
+    display: inline-block;
+}
+
+.point {
+    position: absolute;
+    top: 10px;
+    right: 20%;
+}
+
+.box li.apple {
+    background: red;
+    border-radius: 50%;
+}
+
+.box li.head {
+    background: blue;
+    border-radius: 50%;
+}
+
+.box li.sBody {
+    background: green;
+    border-radius: 50%;
+    
+}
